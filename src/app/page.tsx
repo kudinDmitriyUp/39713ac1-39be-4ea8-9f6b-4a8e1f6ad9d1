@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -37,8 +37,6 @@ export default function LandingPage() {
             text: "Order Now",
             href: "contact"
           }}
-          buttonClassName="font-semibold"
-          buttonTextClassName="text-sm"
         />
       </div>
 
